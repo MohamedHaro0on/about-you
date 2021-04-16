@@ -1,0 +1,13 @@
+.MainPhotoAboutUS
+{
+    background-image : url("../../assets/images/01_Header-1.png") ;
+    background-size : 100% 100% !important ; 
+    height : 90vh ; 
+}
+@media(max-width : 789px)
+{
+    .MainPhotoAboutUS
+    {
+        height : 50vh !important ;
+    }
+}

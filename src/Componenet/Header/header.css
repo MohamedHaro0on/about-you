@@ -1,0 +1,26 @@
+.dropdown-menu
+{
+    top : 180% !important;
+    left : -50% !important;
+    border : none 
+}
+.dropdown-menu::after
+{
+    content: "" ;
+    width: 1px ;
+    height : 20px ;
+    background-color : transparent ;
+    border-right : solid 10px transparent ;
+    border-left : solid 10px transparent ;
+    border-top : solid 10px transparent ;
+    border-bottom : solid 10px #fff  ;
+    top : -21px ;
+    left : 45% ;
+    position : absolute ;
+}
+.nav-item
+{
+    margin: 0px 1px ;
+    position: relative ;
+    transition: all 2s ;
+}

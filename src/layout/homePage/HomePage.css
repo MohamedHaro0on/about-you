@@ -1,0 +1,62 @@
+body {
+  padding-top: 73px;
+}
+.MainPhoto {
+  height: 100vh;
+  background-image: url("../../assets/images/01_Header-K1.jpg");
+  background-size: 100% 100%;
+}
+.title {
+  font-size: 3rem !important ;
+}
+.small_title {
+  font-size: 1rem;
+}
+.playFair {
+  font-family: "Playfair Display", serif !important;
+}
+.MainPhototitle {
+  font-size: 3rem !important;
+  line-height: normal;
+  padding: 10px 50px;
+}
+.my_card {
+  bottom: 0px !important;
+  top: 0px !important ;
+  left: 0px !important ;
+  right: 30% !important ;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.z_index {
+  z-index: 1 !important ;
+  height: 100%;
+}
+.col_container:hover .my_card {
+  right: 0px !important ;
+  box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.25);
+}
+.text-decoration-underline {
+  text-decoration: underline !important;
+}
+.disc {
+  font-size: 1.5rem;
+}
+.toTheTop {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2;
+}
+@media (max-width: 789px) {
+  .MainPhoto {
+    height: 45vh !important ;
+  }
+  .MainPhototitle {
+    padding: 10px !important;
+    font-size: 2rem !important;
+  }
+}
