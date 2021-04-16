@@ -1,7 +1,7 @@
 export const  Links = [
     {
       name: "AboutUs",
-      to : "/",
+      to : "/about-you",
       children: [
         { name: "aboutUs", to: "/AboutUs" },
         { name: "Managment Board", to: "/ManagementBoard" },

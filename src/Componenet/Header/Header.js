@@ -64,7 +64,7 @@ export const Header = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light py-3 fixed-top bg-white col-lg-11 col-sm-12 col-md-12 mx-auto">
-      <Link className="navbar-brand" to="/">
+      <Link className="navbar-brand" to="/about-you">
         <img src={Logo} className="img-fluid" to="/" alt="About You" title="About You" />
       </Link>
       <button
