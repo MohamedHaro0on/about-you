@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/about-you/static/css/main.45884c14.chunk.css",
+    "main.js": "/about-you/static/js/main.0ec6a703.chunk.js",
+    "main.js.map": "/about-you/static/js/main.0ec6a703.chunk.js.map",
+    "runtime-main.js": "/about-you/static/js/runtime-main.24eddff3.js",
+    "runtime-main.js.map": "/about-you/static/js/runtime-main.24eddff3.js.map",
+    "static/css/2.67123b20.chunk.css": "/about-you/static/css/2.67123b20.chunk.css",
+    "static/js/2.aca1b366.chunk.js": "/about-you/static/js/2.aca1b366.chunk.js",
+    "static/js/2.aca1b366.chunk.js.map": "/about-you/static/js/2.aca1b366.chunk.js.map",
+    "index.html": "/about-you/index.html",
+    "precache-manifest.b79a5bbd278596454c0113a94416c3e4.js": "/about-you/precache-manifest.b79a5bbd278596454c0113a94416c3e4.js",
+    "service-worker.js": "/about-you/service-worker.js",
+    "static/css/2.67123b20.chunk.css.map": "/about-you/static/css/2.67123b20.chunk.css.map",
+    "static/css/main.45884c14.chunk.css.map": "/about-you/static/css/main.45884c14.chunk.css.map",
+    "static/js/2.aca1b366.chunk.js.LICENSE": "/about-you/static/js/2.aca1b366.chunk.js.LICENSE",
+    "static/media/AboutUs.css": "/about-you/static/media/01_Header-1.65b4d47f.png",
+    "static/media/HomePage.css": "/about-you/static/media/01_Header-K1.9243ec40.jpg",
+    "static/media/02_AboutYou-1-688x583.png": "/about-you/static/media/02_AboutYou-1-688x583.2f1e0dad.png",
+    "static/media/02_AboutYou-688x583.png": "/about-you/static/media/02_AboutYou-688x583.39bbfaac.png",
+    "static/media/03_Stats.png": "/about-you/static/media/03_Stats.7e4e6279.png",
+    "static/media/04_Vision.png": "/about-you/static/media/04_Vision.34a74612.png",
+    "static/media/05_B2B.png": "/about-you/static/media/05_B2B.1e6fdcf1.png",
+    "static/media/06_Markets.png": "/about-you/static/media/06_Markets.d8a8c93e.png",
+    "static/media/ABOUT-YOU_Adventskalender_20195-380x245.jpg": "/about-you/static/media/ABOUT-YOU_Adventskalender_20195-380x245.e8980a75.jpg",
+    "static/media/ABOUT-YOU_PARI-2.0_lowres_13-380x245.jpg": "/about-you/static/media/ABOUT-YOU_PARI-2.0_lowres_13-380x245.ca5e93a5.jpg",
+    "static/media/B02V6991.jpg_cmyk-380x245.jpg": "/about-you/static/media/B02V6991.jpg_cmyk-380x245.e40e3173.jpg",
+    "static/media/download.svg": "/about-you/static/media/download.356c644d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24eddff3.js",
+    "static/css/2.67123b20.chunk.css",
+    "static/js/2.aca1b366.chunk.js",
+    "static/css/main.45884c14.chunk.css",
+    "static/js/main.0ec6a703.chunk.js"
+  ]
+}
