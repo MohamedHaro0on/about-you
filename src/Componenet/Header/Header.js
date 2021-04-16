@@ -5,7 +5,7 @@ import "./header.css";
 import { Links } from "./Links"
 
 const HeaderRoutes = () => {
-  return Links.map(({ name, children, to }, index) => {
+  return Links.map(({ name, children }, index) => {
     if (children) {
       return (
         <li className="nav-item dropdown" key = {index}>
@@ -16,23 +16,23 @@ const HeaderRoutes = () => {
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
-              to={to}
+              to={"/about-us"}
               aira-label="open sublist"
             >
               {name}
             </Link>
             <div className="dropdown-menu" aria-labelledby={`#${name}`}>
               {
-                children.map((child, number) => {
+                children.map((child) => {
                   return (
                     <div key={child.name}>
-                      <Link className="dropdown-item" to={child.to} >{child.name} </Link>
+                      <Link className="dropdown-item" to={"/about-us"}>{child.name} </Link>
                       {child.grandChildren &&
                         <ul className="list-unstyled p-0">
                           {child.grandChildren.map((_grandChildren) => {
                             return (
                               <li key={_grandChildren.name}>
-                                <Link className="dropdown-item" to={_grandChildren.to} >
+                                <Link className="dropdown-item" to={"/about-us"} >
                                   {_grandChildren.name}
                                 </Link>
                               </li>
@@ -51,7 +51,7 @@ const HeaderRoutes = () => {
     else {
       return (
         <li className="nav-item" key = {index}>
-          <Link className="nav-link" to={to}>
+          <Link className="nav-link" to={"/about-us"}>
             {name}
           </Link>
         </li>

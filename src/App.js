@@ -13,10 +13,7 @@ const App = () => {
     <div className="App">
       <Router>
         <Header />
-        <Switch>
-          <Route path="/about-you" default component={HomePage} exact />
-          <Route path="/AboutUs" component={AboutUs} exact />
-        </Switch>
+        <HomePage />
         <Footer />
       </Router>
 

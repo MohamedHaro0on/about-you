@@ -20,18 +20,18 @@ const Footer = () => {
                 {Links.map(({ to, children, name }, index) => {
                     return (
                         <Col xs="6" lg="3" key={index}>
-                            <Link className="mt-3 text-light playFair" to={to}> {name}</Link>
+                            <Link className="mt-3 text-light playFair" to={"/about-us"}> {name}</Link>
                             {children &&
                                 <ul className="list-unstyled p-0">
                                     {children.map((child, number) => {
                                         return (
                                             <li key={child.name}>
-                                                <Link to={child.to} className=" text-light small" aria-label={` to ${child.name}`}>{child.name}</Link>
+                                                <Link to={"/about-us"} className=" text-light small" aria-label={` to ${child.name}`}>{child.name}</Link>
                                                 <ul className="list-unstyled p-0">
                                                     {child.grandChildren && child.grandChildren.map(grandChild => {
                                                         return (
                                                             <li key={grandChild.name}>
-                                                                <Link to={grandChild.to} className="text-light small " aria-label={`to ${grandChild.name}`}>{grandChild.name}</Link>
+                                                                <Link to={"/about-us"} className="text-light small " aria-label={`to ${grandChild.name}`}>{grandChild.name}</Link>
                                                             </li>
                                                         )
                                                     })}
